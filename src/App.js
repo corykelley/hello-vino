@@ -1,24 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Switch, Route } from 'react-router-dom';
+import './styles/app.css';
+
+import Header from './components/Header';
+import Home from './pages/Home';
+import Varietals from './pages/Varietals';
+import VarietalDetails from './pages/VarietalDetails';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="text-gray-800 text-lg transition-all duration-100">
+      <Header />
+
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route exact path="/varietals">
+          <Varietals />
+        </Route>
+        <Route path="/varietals/:varietalName">
+          <VarietalDetails />
+        </Route>
+      </Switch>
     </div>
   );
 }
