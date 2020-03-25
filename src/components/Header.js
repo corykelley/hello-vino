@@ -7,7 +7,7 @@ const Header = () => {
       <h2 className="ml-24 font-serif">
         <Link to="/">Hello Vino</Link>
       </h2>
-      <ul className="mr-24 flex flex-row">
+      <ul className="mr-24 flex flex-row uppercase">
         <li className="px-3">
           <Link to="/">Home</Link>
         </li>

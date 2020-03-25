@@ -1,6 +1,7 @@
 const varietalData = [
   {
     name: 'Cabernet Sauvignon',
+    color: 'Red',
     pronunciation: '“Kab-er-nay Saw-vin-yawn”',
     taste: [
       'Black Cherry',
@@ -24,6 +25,7 @@ const varietalData = [
   },
   {
     name: 'Syrah',
+    color: 'Red',
     pronunciation: '“Sear-ah” (aka Shiraz)',
     taste: [
       'Blueberry',
@@ -50,6 +52,7 @@ const varietalData = [
   },
   {
     name: 'Zinfandel',
+    color: 'Red',
     pronunciation: '“Zin-fan-dell”',
     taste: [
       'A broad, exotic array of fruits from stone (overripe nectarine), to red (raspberry, sour cherry), to blue (plum, blueberry), to black (blackberry, boysenberry)',
@@ -74,6 +77,7 @@ const varietalData = [
   },
   {
     name: 'Pinot Noir',
+    color: 'Red',
     pronunciation: '“Pee-no Nwar”',
     taste: [
       'Very red fruited (cherry, cranberry) and red-floral (rose)',

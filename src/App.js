@@ -6,10 +6,11 @@ import Header from './components/Header';
 import Home from './pages/Home';
 import Varietals from './pages/Varietals';
 import VarietalDetails from './pages/VarietalDetails';
+import RedVarietals from './pages/RedVarietals';
 
 function App() {
   return (
-    <div className="text-gray-800 text-lg transition-all duration-100">
+    <div className="text-gray-800 text-lg">
       <Header />
 
       <Switch>
@@ -21,6 +22,9 @@ function App() {
         </Route>
         <Route path="/varietals/:varietalName">
           <VarietalDetails />
+        </Route>
+        <Route path="/reds">
+          <RedVarietals />
         </Route>
       </Switch>
     </div>
