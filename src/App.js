@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import Varietals from './pages/Varietals';
 import VarietalDetails from './pages/VarietalDetails';
 import RedVarietals from './pages/RedVarietals';
+import WhiteVarietals from './pages/WhiteVarietals';
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
         </Route>
         <Route path="/reds">
           <RedVarietals />
+        </Route>
+        <Route path="/whites">
+          <WhiteVarietals />
         </Route>
       </Switch>
     </div>

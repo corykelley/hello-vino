@@ -6,26 +6,50 @@ import Button from './Button';
 const VarietalCard = ({ varietal }) => {
   return (
     <div className="container my-8 mx-auto">
-      <div class="max-w-sm rounded overflow-hidden shadow-lg mx-auto">
-        <img class="w-full" src={varietal.img} alt={varietal.name} />
-        <div class="px-6 py-4">
-          <div class="font-bold text-3xl mb-2 hover:text-red-800 duration-200">
+      <div className="max-w-sm rounded overflow-hidden shadow-lg mx-auto">
+        <img className="w-full" src={varietal.img} alt={varietal.name} />
+        <div className="px-6 py-4">
+          <div
+            className={
+              (varietal.color === 'White' && 'hover:text-yellow-500') +
+              ' ' +
+              'font-bold text-3xl mb-2 hover:text-red-800 duration-200'
+            }
+          >
             <Link to={'/varietals/' + varietal.name}>{varietal.name}</Link>
           </div>
-          <p class="text-gray-700 text-base">
+          <p className={'text-gray-700 text-base'}>
             {varietal.description
               .split(' ')
               .slice(0, 14)
               .join(' ') + ' ...'}
           </p>
         </div>
-        <div className="px-8 py-4 bg-red-800">
+        <div
+          className={
+            'px-8 py-4' +
+            ' ' +
+            (varietal.color === 'Red' ? 'bg-red-800' : 'bg-yellow-300')
+          }
+        >
           <Button linkTo={'/varietals/' + varietal.name}>
-            <p className="text-gray-100 inline hover:font-bold duration-200">
+            <p
+              className={
+                (varietal.color === 'White'
+                  ? 'text-gray-800'
+                  : 'text-gray-100') +
+                ' ' +
+                'inline hover:font-bold duration-200'
+              }
+            >
               Learn More
             </p>
             <svg
-              className="fill-current text-gray-100 inline m-2"
+              className={
+                (varietal.color === 'White' && 'text-gray-800') +
+                ' ' +
+                'fill-current text-gray-100 inline m-2'
+              }
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               width="20"

@@ -12,7 +12,7 @@ const Header = () => {
           <Link to="/">Home</Link>
         </li>
         <li className="px-3">
-          <Link to="/varietals">Varietals</Link>
+          <Link to="/varietals">All Varietals</Link>
         </li>
       </ul>
     </div>

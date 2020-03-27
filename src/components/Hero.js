@@ -15,15 +15,17 @@ const Hero = () => {
           </div>
         </div>
       </Link>
-      <div className="bg-white flex">
-        <div className="w-full self-center text-center">
-          <h1 className="hero-text uppercase text-gray-100">White Wine</h1>
-          <p className="view-all-hero text-gray-100 text-xl">
-            View All Varietals
-          </p>
-          <hr className="w-1/3 mx-auto" />
+      <Link to="/whites">
+        <div className="bg-white flex">
+          <div className="w-full self-center text-center">
+            <h1 className="hero-text uppercase text-gray-100">White Wine</h1>
+            <p className="view-all-hero text-gray-100 text-xl">
+              View All Varietals
+            </p>
+            <hr className="w-1/3 mx-auto" />
+          </div>
         </div>
-      </div>
+      </Link>
     </div>
   );
 };

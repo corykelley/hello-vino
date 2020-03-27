@@ -1,11 +1,25 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
+
 import varietalData from '../data/varietalData';
+import Footer from '../components/Footer';
 
 function VarietalDetails(props) {
   const { varietalName } = useParams();
   const thisVarietal = varietalData.find(
     varietal => varietal.name === varietalName
+  );
+
+  const arrowIcon = (
+    <svg
+      className="inline -ml-2"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      width="24"
+      height="24"
+    >
+      <path d="M9.3 8.7a1 1 0 0 1 1.4-1.4l4 4a1 1 0 0 1 0 1.4l-4 4a1 1 0 0 1-1.4-1.4l3.29-3.3-3.3-3.3z" />
+    </svg>
   );
 
   return (
@@ -24,56 +38,24 @@ function VarietalDetails(props) {
         </h3>
         <hr className="mb-2" />
         <p className="mb-2">
-          <svg
-            className="inline -ml-2"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            width="24"
-            height="24"
-          >
-            <path d="M9.3 8.7a1 1 0 0 1 1.4-1.4l4 4a1 1 0 0 1 0 1.4l-4 4a1 1 0 0 1-1.4-1.4l3.29-3.3-3.3-3.3z" />
-          </svg>
+          {arrowIcon}
           <strong className="uppercase">Country of Origin: </strong>
           {thisVarietal.countryOfOrigin}
         </p>
         <p className="mb-2">
-          <svg
-            className="inline -ml-2"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            width="24"
-            height="24"
-          >
-            <path d="M9.3 8.7a1 1 0 0 1 1.4-1.4l4 4a1 1 0 0 1 0 1.4l-4 4a1 1 0 0 1-1.4-1.4l3.29-3.3-3.3-3.3z" />
-          </svg>
+          {arrowIcon}
           <strong className="uppercase">Taste: </strong>
           {thisVarietal.taste.map((taste, i) => (
             <span key={taste}>{(i ? ', ' : '') + taste}</span>
           ))}
         </p>
         <p className="mb-2">
-          <svg
-            className="inline -ml-2"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            width="24"
-            height="24"
-          >
-            <path d="M9.3 8.7a1 1 0 0 1 1.4-1.4l4 4a1 1 0 0 1 0 1.4l-4 4a1 1 0 0 1-1.4-1.4l3.29-3.3-3.3-3.3z" />
-          </svg>
+          {arrowIcon}
           <strong className="uppercase">Description: </strong>
           {thisVarietal.description}
         </p>
         <p>
-          <svg
-            className="inline -ml-2"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            width="24"
-            height="24"
-          >
-            <path d="M9.3 8.7a1 1 0 0 1 1.4-1.4l4 4a1 1 0 0 1 0 1.4l-4 4a1 1 0 0 1-1.4-1.4l3.29-3.3-3.3-3.3z" />
-          </svg>
+          {arrowIcon}
           <strong className="uppercase">Goes well with: </strong>
           {thisVarietal.foodPairing.map((pairing, i) => (
             <span key={pairing}>{(i ? ', ' : '') + pairing}</span>
@@ -96,6 +78,7 @@ function VarietalDetails(props) {
         <hr className="mb-2" />
         <p>{thisVarietal.funFact}</p>
       </div>
+      <Footer />
     </div>
   );
 }

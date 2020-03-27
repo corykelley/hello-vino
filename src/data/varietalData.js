@@ -1,4 +1,7 @@
 const varietalData = [
+  //
+  // Red Varietals
+  //
   {
     name: 'Cabernet Sauvignon',
     color: 'Red',
@@ -98,6 +101,106 @@ const varietalData = [
       'Cream sauces',
       'Soft cheeses',
       'Nutty medium-firm cheeses like Gruyère'
+    ],
+    img: 'https://drive.google.com/uc?id=1sY4bsVZsgfeMA4H02YbjFddnAPSMLl1b'
+  },
+  //
+  // White Varietals
+  //
+  {
+    name: 'Chardonnay',
+    color: 'White',
+    pronunciation: '“Shar-dun-nay”',
+    taste: [
+      'Yellow citrus (Meyer lemon)',
+      'Yellow pomaceous fruits (like yellow pear and apple)',
+      'Tropical fruits like banana or pineapple',
+      'Butterscotch',
+      'Vanilla or toasted caramel notes from oak'
+    ],
+    style: 'Medium to Full-Bodied White Wine',
+    countryOfOrigin: 'France',
+    description:
+      'Chardonnay is a dry full-bodied white wine that was planted in large quantities for the first time in France. When oak-aged, Chardonnay will have spicy, bourbon-y notes. Unoaked wines are lighter and zesty with apple and citrus flavors. Chardonnay is the white grape of Burgundy.',
+    foodPairing: [
+      'Lobster',
+      'Crab',
+      'Shrimp',
+      'Chicken',
+      'Pork',
+      'Mushroom',
+      'French cream sauces',
+      'Soft cheeses such as triple cream brie and medium-firm cheeses like Gruyère'
+    ],
+    funFact:
+      'There’s a reason why Cab tastes great with steak! Researchers studying the effects of certain foods on the tongue found that the tannins in Cabernet Sauvignon act as “scrapers” to fats and proteins that collect on your tongue from the food you eat. Steak has higher levels of proteins and fats and thus needs a wine with higher tannin.',
+    img: 'https://drive.google.com/uc?id=1sY4bsVZsgfeMA4H02YbjFddnAPSMLl1b'
+  },
+  {
+    name: 'Sauvignon Blanc',
+    color: 'White',
+    pronunciation: '“Saw-vin-yawn Blonk”',
+    taste: [
+      'Aggressively-citrus-driven (grapefruit pith)',
+      'Exotic fruits (honeydew melon, passion fruit, kiwi)',
+      'Always an herbaceous quality (grass, mint, green pepper)'
+    ],
+    style: 'Light to Medium-Bodied White Wine',
+    countryOfOrigin: 'France',
+    description:
+      'Sauvignon Blanc is a dry white grape first widely planted in France. Wines are tart, typically with herbal, “green” fruit flavors.',
+    foodPairing: [
+      'Fish',
+      'Chicken',
+      'Pork',
+      'Veal',
+      'Mexican, Vietnamese and French foods',
+      'Herb-crusted goat cheese and nutty cheeses such as Gruyère'
+    ],
+    funFact:
+      'Syrah and Shiraz are the same grape! Known as Syrah in France (its country of origin) as well as in the rest of Europe and most of the United States, it is referred to as Shiraz in Australia, New Zealand, South Africa, and Canada. The name “Shiraz” may have originated from ancient Persia.',
+    img: 'https://drive.google.com/uc?id=1sY4bsVZsgfeMA4H02YbjFddnAPSMLl1b'
+  },
+  {
+    name: 'Pinot Gris',
+    color: 'White',
+    pronunciation: '“Pee-no Gree” (aka Pinot Grigio)',
+    taste: [
+      'Delicate citrus (lime water, orange zest)',
+      'Pomaceous fruits (apple skin, pear sauce)',
+      'White floral notes',
+      'Cheese rind'
+    ],
+    style: 'Light-Bodied White Wine',
+    countryOfOrigin: 'France',
+    description:
+      'Pinot Gris is a dry light-bodied white grape that is planted heavily in Italy, but also in France and Germany. Wines are light to middle-weight and easy drinking, often with some bitter flavor on the palate (bitter almond, quinine).',
+    foodPairing: ['Salad', 'Delicate poached fish', 'Light and mild cheeses'],
+    img: 'https://drive.google.com/uc?id=1sY4bsVZsgfeMA4H02YbjFddnAPSMLl1b'
+  },
+  {
+    name: 'Riesling',
+    color: 'White',
+    pronunciation: '“Reese-ling”',
+    taste: [
+      'Citrus (kefir lime, lemon juice) and stone-fruit (white peach, nectarine) always feature prominently',
+      'Floral and sweet herbal elements',
+      'Rock candy',
+      'Honeysuckle'
+    ],
+    style:
+      'Floral and fruit-driven aromatic white that comes in variable sweetness. Some producers choose not to ferment all the grape sugar and therefore make the wine in an “off-dry” style.',
+    countryOfOrigin: 'Germany',
+    description:
+      'Always very high in acid, when made as a table wine Rieslings can be harmoniously sweet (sweet and sour) or dry (very acidic). The wine is polarizing because some people find dry styles too acidic and sweet styles too cloying, but sweetness is always a wine making decision and not inherent to the grape.',
+    foodPairing: [
+      'Chicken',
+      'Pork',
+      'Duck',
+      'Turkey (Thanksgiving Dinner)',
+      'Cured meat',
+      'Indian, Thai, Vietnamese, Moroccan and German foods',
+      'Washed-rind cheeses and fondue'
     ],
     img: 'https://drive.google.com/uc?id=1sY4bsVZsgfeMA4H02YbjFddnAPSMLl1b'
   }

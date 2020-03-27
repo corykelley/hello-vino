@@ -6,19 +6,19 @@ import VarietalCard from '../components/VarietalCard';
 const Varietals = () => {
   const { allVarietals } = useContext(Context);
 
-  const reds = allVarietals
-    .filter(red => red.color === 'Red')
-    .map(red => {
+  const whites = allVarietals
+    .filter(white => white.color === 'White')
+    .map(white => {
       return (
-        <div key={red.name}>
-          <VarietalCard varietal={red} />
+        <div key={white.name}>
+          <VarietalCard varietal={white} />
         </div>
       );
     });
 
   return (
     <div className="container align-center my-4 mx-auto p-2 grid grid-cols-1 gap-4 sm:grid-cols-2">
-      {reds}
+      {whites}
     </div>
   );
 };
