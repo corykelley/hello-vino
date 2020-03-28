@@ -8,11 +8,11 @@ const Header = () => {
         <Link to="/">Hello Vino</Link>
       </h2>
       <ul className="mr-24 flex flex-row uppercase">
-        <li className="px-3">
-          <Link to="/">Home</Link>
-        </li>
-        <li className="px-3">
+        <li className="px-3 links">
           <Link to="/varietals">All Varietals</Link>
+        </li>
+        <li className="px-3 links">
+          <Link to="/what-to-drink">What To Drink</Link>
         </li>
       </ul>
     </div>

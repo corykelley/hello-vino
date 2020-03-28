@@ -10912,6 +10912,20 @@ video {
   transition-duration: 1000ms;
 }
 
+.links {
+  transition: all ease 200ms;
+}
+
+.links:hover {
+  background-color: #9b2c2c;
+  transition: all ease 200ms;
+  color: #f7fafc;
+}
+
+.pointer:hover {
+  cursor: pointer;
+}
+
 .bg-red {
   position: relative;
   z-index: 1; /* matters! */

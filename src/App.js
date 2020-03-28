@@ -8,6 +8,7 @@ import Varietals from './pages/Varietals';
 import VarietalDetails from './pages/VarietalDetails';
 import RedVarietals from './pages/RedVarietals';
 import WhiteVarietals from './pages/WhiteVarietals';
+import WhatToDrink from './pages/WhatToDrink';
 
 function App() {
   return (
@@ -29,6 +30,9 @@ function App() {
         </Route>
         <Route path="/whites">
           <WhiteVarietals />
+        </Route>
+        <Route path="/what-to-drink">
+          <WhatToDrink />
         </Route>
       </Switch>
     </div>
