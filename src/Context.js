@@ -12,7 +12,13 @@ function ContextProvider({ children }) {
   }, []);
 
   return (
-    <Context.Provider value={{ allVarietals }}>{children}</Context.Provider>
+    <Context.Provider
+      value={{
+        allVarietals
+      }}
+    >
+      {children}
+    </Context.Provider>
   );
 }
 
