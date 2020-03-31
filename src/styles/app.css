@@ -10922,6 +10922,10 @@ video {
   color: #f7fafc;
 }
 
+button {
+  cursor: pointer;
+}
+
 .pointer:hover {
   cursor: pointer;
 }
@@ -11023,6 +11027,16 @@ video {
 
 .view-all-hero:hover {
   cursor: pointer;
+}
+
+.logo {
+  width: 200px;
+  padding: 5px;
+  transition: all ease 200ms;
+}
+
+.logo:hover {
+  transform: scale(1.1);
 }
 
 @media (max-width: 768px) {
