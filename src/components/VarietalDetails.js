@@ -2,9 +2,9 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 
 import varietalData from '../data/varietalData';
-import Footer from '../components/Footer';
+import Footer from './Footer';
 
-function VarietalDetails(props) {
+function VarietalDetails() {
   const { varietalName } = useParams();
   const thisVarietal = varietalData.find(
     varietal => varietal.name === varietalName

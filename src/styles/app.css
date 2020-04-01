@@ -11039,6 +11039,10 @@ button {
   transform: scale(1.1);
 }
 
+.modal {
+  height: 500px;
+}
+
 @media (max-width: 768px) {
   .bg-red {
     width: 100vw;

@@ -1,3 +1,4 @@
+/* eslint-disable default-case */
 export const onSubmitForm = (food, occasion, season) => {
   switch (food) {
     case 'nothing':
@@ -5,8 +6,7 @@ export const onSubmitForm = (food, occasion, season) => {
         case 'yes':
           switch (season) {
             case 'spring':
-              alert('spring');
-              break;
+              return 'Cabernet Sauvignon';
             case 'summer':
               alert('summer');
               break;
@@ -244,6 +244,5 @@ export const onSubmitForm = (food, occasion, season) => {
               break;
           }
       }
-      break;
   }
 };

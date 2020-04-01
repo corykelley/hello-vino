@@ -5,7 +5,7 @@ import './styles/app.css';
 import Header from './components/Header';
 import Home from './pages/Home';
 import Varietals from './pages/Varietals';
-import VarietalDetails from './pages/VarietalDetails';
+import VarietalDetails from './components/VarietalDetails';
 import RedVarietals from './pages/RedVarietals';
 import WhiteVarietals from './pages/WhiteVarietals';
 import WhatToDrink from './pages/WhatToDrink';

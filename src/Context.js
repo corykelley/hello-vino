@@ -7,6 +7,8 @@ const Context = React.createContext();
 function ContextProvider({ children }) {
   const [allVarietals, setAllVarietals] = useState([]);
 
+  const [visibility, setVisibility] = useState(false);
+
   useEffect(() => {
     setAllVarietals(varietalData);
   }, []);
@@ -14,7 +16,9 @@ function ContextProvider({ children }) {
   return (
     <Context.Provider
       value={{
-        allVarietals
+        allVarietals,
+        visibility,
+        setVisibility
       }}
     >
       {children}
