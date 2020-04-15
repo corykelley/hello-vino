@@ -60,7 +60,7 @@ export const onSubmitForm = (food, occasion, season) => {
         case 'yes':
           switch (season) {
             case 'spring':
-              return 'Carbernet Sauvignon';
+              return 'Cabernet Sauvignon';
             case 'summer':
               return 'Pinot Noir';
             case 'fall':
