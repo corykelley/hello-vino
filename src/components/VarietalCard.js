@@ -19,10 +19,7 @@ const VarietalCard = ({ varietal }) => {
             <Link to={'/varietals/' + varietal.name}>{varietal.name}</Link>
           </div>
           <p className={'text-gray-700 text-base'}>
-            {varietal.description
-              .split(' ')
-              .slice(0, 14)
-              .join(' ') + ' ...'}
+            {varietal.description.split(' ').slice(0, 14).join(' ') + ' ...'}
           </p>
         </div>
         <div

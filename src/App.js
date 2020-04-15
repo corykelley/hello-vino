@@ -14,7 +14,6 @@ function App() {
   return (
     <div className="text-gray-800 text-lg">
       <Header />
-
       <Switch>
         <Route exact path="/">
           <Home />

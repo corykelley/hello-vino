@@ -9,17 +9,17 @@ const Header = () => {
   const { setVisibility } = useContext(Context);
 
   return (
-    <div className="flex justify-between items-center py-8 shadow-md">
-      <h2 className="ml-24 font-serif">
+    <div className="header-div">
+      <h2 className="font-serif">
         <Link to="/">
           <img className="logo" src={HelloVinoLogo} alt="Hello Vino Logo" />
         </Link>
       </h2>
-      <ul className="mr-24 flex flex-row uppercase">
-        <li className="px-3 links">
+      <ul className="nav-links uppercase">
+        <li className="links">
           <Link to="/varietals">All Varietals</Link>
         </li>
-        <li className="px-3 links">
+        <li className="pl-4 links">
           <Link onClick={() => setVisibility(false)} to="/what-to-drink">
             What To Drink
           </Link>

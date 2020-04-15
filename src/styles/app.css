@@ -10917,9 +10917,8 @@ video {
 }
 
 .links:hover {
-  background-color: #9b2c2c;
+  color: #9b2c2c;
   transition: all ease 200ms;
-  color: #f7fafc;
 }
 
 button {
@@ -11029,18 +11028,35 @@ button {
   cursor: pointer;
 }
 
+.header-div {
+  max-width: 1200px;
+  width: 88vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem auto 0;
+}
+
 .logo {
-  width: 200px;
-  padding: 5px;
+  max-width: 200px;
+  padding-bottom: 1.4rem;
   transition: all ease 200ms;
 }
 
 .logo:hover {
-  transform: scale(1.1);
+  transform: scale(1.04);
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .modal {
-  height: 500px;
+  height: 700px;
 }
 
 @media (max-width: 768px) {
@@ -11062,6 +11078,40 @@ button {
   .bg-white::before {
     width: 100vw;
     height: 50vh;
+  }
+
+  .header-div {
+    margin-bottom: 1rem;
+  }
+
+  .logo {
+    width: 100px;
+    padding-bottom: 0;
+  }
+
+  li a {
+    font-size: 0.7rem;
+  }
+
+  .modal {
+    height: 500px;
+  }
+
+  .modal-info {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .modal-info > div > h1 {
+    font-size: 1.6rem;
+  }
+
+  .modal img {
+    width: 100px;
+  }
+
+  .details-img {
+    width: 175px;
   }
 }
 

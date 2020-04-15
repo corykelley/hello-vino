@@ -5,7 +5,7 @@ import varietalData from '../data/varietalData';
 
 const Recommendation = ({ recommendation, closeModal }) => {
   const thisRecommendation = varietalData.find(
-    varietal => varietal.name === recommendation
+    (varietal) => varietal.name === recommendation
   );
   const arrowIcon = (
     <svg
@@ -20,8 +20,8 @@ const Recommendation = ({ recommendation, closeModal }) => {
   );
 
   return (
-    <div className="container z-10 inset-0 absolute shadow-xl rounded px-6 pt-4 my-4 mx-auto bg-gray-100 modal">
-      <div className="w-8/12 mt-12 mx-auto ">
+    <div className="container z-10 inset-0 absolute shadow-xl rounded px-6 pt-4 mb-4 mx-auto bg-gray-100 modal">
+      <div className="w-8/12 mt-12 mx-auto modal-info">
         <img
           className="max-w-5xl mx-auto mb-4 shadow-lg"
           src={thisRecommendation.img}

@@ -8,30 +8,23 @@ export const onSubmitForm = (food, occasion, season) => {
             case 'spring':
               return 'Cabernet Sauvignon';
             case 'summer':
-              alert('summer');
-              break;
+              return 'Chardonnay';
             case 'fall':
-              alert('fall');
-              break;
+              return 'Zinfandel';
             case 'winter':
-              alert('winter');
-              break;
+              return 'Cabernet Sauvignon';
           }
           break;
         case 'no':
           switch (season) {
             case 'spring':
-              alert('spring');
-              break;
+              return 'Syrah';
             case 'summer':
-              alert('summer');
-              break;
+              return 'Pinot Gris';
             case 'fall':
-              alert('fall');
-              break;
+              return 'Riesling';
             case 'winter':
-              alert('winter');
-              break;
+              return 'Cabernet Sauvignon';
           }
       }
       break;
@@ -40,33 +33,25 @@ export const onSubmitForm = (food, occasion, season) => {
         case 'yes':
           switch (season) {
             case 'spring':
-              alert('spring');
-              break;
+              return 'Chardonnay';
             case 'summer':
-              alert('summer');
-              break;
+              return 'Pinot Gris';
             case 'fall':
-              alert('fall');
-              break;
+              return 'Riesling';
             case 'winter':
-              alert('winter');
-              break;
+              return 'Chardonnay';
           }
           break;
         case 'no':
           switch (season) {
             case 'spring':
-              alert('spring');
-              break;
+              return 'Chardonnay';
             case 'summer':
-              alert('summer');
-              break;
+              return 'Sauvignon Blanc';
             case 'fall':
-              alert('fall');
-              break;
+              return 'Riesling';
             case 'winter':
-              alert('winter');
-              break;
+              return 'Chardonnay';
           }
       }
       break;
@@ -75,33 +60,25 @@ export const onSubmitForm = (food, occasion, season) => {
         case 'yes':
           switch (season) {
             case 'spring':
-              alert('spring');
-              break;
+              return 'Carbernet Sauvignon';
             case 'summer':
-              alert('summer');
-              break;
+              return 'Pinot Noir';
             case 'fall':
-              alert('fall');
-              break;
+              return 'Zinfandel';
             case 'winter':
-              alert('winter');
-              break;
+              return 'Cabernet Sauvignon';
           }
           break;
         case 'no':
           switch (season) {
             case 'spring':
-              alert('spring');
-              break;
+              return 'Cabernet Sauvignon';
             case 'summer':
-              alert('summer');
-              break;
+              return 'Pinot Noir';
             case 'fall':
-              alert('fall');
-              break;
+              return 'Pinot Noir';
             case 'winter':
-              alert('winter');
-              break;
+              return 'Syrah';
           }
       }
       break;
@@ -110,33 +87,25 @@ export const onSubmitForm = (food, occasion, season) => {
         case 'yes':
           switch (season) {
             case 'spring':
-              alert('spring');
-              break;
+              return 'Sauvignon Blanc';
             case 'summer':
-              alert('summer');
-              break;
+              return 'Pinot Gris';
             case 'fall':
-              alert('fall');
-              break;
+              return 'Pinot Gris';
             case 'winter':
-              alert('winter');
-              break;
+              return 'Chardonnay';
           }
           break;
         case 'no':
           switch (season) {
             case 'spring':
-              alert('spring');
-              break;
+              return 'Pinot Gris';
             case 'summer':
-              alert('summer');
-              break;
+              return 'Pinot Gris';
             case 'fall':
-              alert('fall');
-              break;
+              return 'Pinot Gris';
             case 'winter':
-              alert('winter');
-              break;
+              return 'Chardonnay';
           }
       }
       break;
@@ -145,33 +114,25 @@ export const onSubmitForm = (food, occasion, season) => {
         case 'yes':
           switch (season) {
             case 'spring':
-              alert('spring');
-              break;
+              return 'Chardonnay';
             case 'summer':
-              alert('summer');
-              break;
+              return 'Sauvignon Blanc';
             case 'fall':
-              alert('fall');
-              break;
+              return 'Pinot Noir';
             case 'winter':
-              alert('winter');
-              break;
+              return 'Cabernet Sauvignon';
           }
           break;
         case 'no':
           switch (season) {
             case 'spring':
-              alert('spring');
-              break;
+              return 'Chardonnay';
             case 'summer':
-              alert('summer');
-              break;
+              return 'Pinot Gris';
             case 'fall':
-              alert('fall');
-              break;
+              return 'Riesling';
             case 'winter':
-              alert('winter');
-              break;
+              return 'Chardonnay';
           }
       }
       break;
@@ -180,33 +141,25 @@ export const onSubmitForm = (food, occasion, season) => {
         case 'yes':
           switch (season) {
             case 'spring':
-              alert('spring');
-              break;
+              return 'Riesling';
             case 'summer':
-              alert('summer');
-              break;
+              return 'Riesling';
             case 'fall':
-              alert('fall');
-              break;
+              return 'Riesling';
             case 'winter':
-              alert('winter');
-              break;
+              return 'Chardonnay';
           }
           break;
         case 'no':
           switch (season) {
             case 'spring':
-              alert('spring');
-              break;
+              return 'Riesling';
             case 'summer':
-              alert('summer');
-              break;
+              return 'Pinot Gris';
             case 'fall':
-              alert('fall');
-              break;
+              return 'Riesling';
             case 'winter':
-              alert('winter');
-              break;
+              return 'Chardonnay';
           }
       }
       break;
@@ -215,33 +168,25 @@ export const onSubmitForm = (food, occasion, season) => {
         case 'yes':
           switch (season) {
             case 'spring':
-              alert('spring');
-              break;
+              return 'Cabernet Sauvignon';
             case 'summer':
-              alert('summer');
-              break;
+              return 'Pinot Noir';
             case 'fall':
-              alert('fall');
-              break;
+              return 'Pinot Noir';
             case 'winter':
-              alert('winter');
-              break;
+              return 'Zinfandel';
           }
           break;
         case 'no':
           switch (season) {
             case 'spring':
-              alert('spring');
-              break;
+              return 'Cabernet Sauvignon';
             case 'summer':
-              alert('summer');
-              break;
+              return 'Pinot Noir';
             case 'fall':
-              alert('fall');
-              break;
+              return 'Pinot Noir';
             case 'winter':
-              alert('winter');
-              break;
+              return 'Zinfandel';
           }
       }
   }

@@ -1,3 +1,12 @@
+import cabPhoto from '../photos/cab_grape.jpg';
+import syrahPhoto from '../photos/syrah_grape.jpg';
+import zinPhoto from '../photos/zin_grape.jpg';
+import pnPhoto from '../photos/pinotnoir_grape.jpg';
+import chardPhoto from '../photos/chard_grape.jpg';
+import sbPhoto from '../photos/sb_grape.jpg';
+import pgPhoto from '../photos/pinotgris_grape.jpg';
+import riesPhoto from '../photos/ries_grape.jpg';
+
 const varietalData = [
   //
   // Red Varietals
@@ -10,7 +19,7 @@ const varietalData = [
       'Black Cherry',
       'Black Currant',
       'Baking Spices',
-      'Cedar (from Oak)'
+      'Cedar (from Oak)',
     ],
     style: 'Full-Bodied Red Wine',
     countryOfOrigin: 'France',
@@ -20,11 +29,11 @@ const varietalData = [
       'Lamb',
       'Beef',
       'Smoked Meats',
-      'Firm cheeses like Aged Cheddar or Pecorino'
+      'Firm cheeses like Aged Cheddar or Pecorino',
     ],
     funFact:
       'There’s a reason why Cab tastes great with steak! Researchers studying the effects of certain foods on the tongue found that the tannins in Cabernet Sauvignon act as “scrapers” to fats and proteins that collect on your tongue from the food you eat. Steak has higher levels of proteins and fats and thus needs a wine with higher tannin.',
-    img: 'https://drive.google.com/uc?id=1sY4bsVZsgfeMA4H02YbjFddnAPSMLl1b'
+    img: cabPhoto,
   },
   {
     name: 'Syrah',
@@ -36,7 +45,7 @@ const varietalData = [
       'Tobacco',
       'Cured meat',
       'Black Pepper',
-      'Violet'
+      'Violet',
     ],
     style: 'Full-Bodied Red Wine',
     countryOfOrigin: 'France',
@@ -47,11 +56,11 @@ const varietalData = [
       'Beef',
       'Smoked meats',
       'French and American firm cheeses like White Cheddar',
-      'Hard cheeses like Spanish Manchego'
+      'Hard cheeses like Spanish Manchego',
     ],
     funFact:
       'Syrah and Shiraz are the same grape! Known as Syrah in France (its country of origin) as well as in the rest of Europe and most of the United States, it is referred to as Shiraz in Australia, New Zealand, South Africa, and Canada. The name “Shiraz” may have originated from ancient Persia.',
-    img: 'https://drive.google.com/uc?id=1sY4bsVZsgfeMA4H02YbjFddnAPSMLl1b'
+    img: syrahPhoto,
   },
   {
     name: 'Zinfandel',
@@ -60,7 +69,7 @@ const varietalData = [
     taste: [
       'A broad, exotic array of fruits from stone (overripe nectarine), to red (raspberry, sour cherry), to blue (plum, blueberry), to black (blackberry, boysenberry)',
       'Asian 5 Spice Powder',
-      'Sweet Tobacco'
+      'Sweet Tobacco',
     ],
     style: 'Medium-bodied to full-bodied Red Wine',
     countryOfOrigin: 'Croatia (Tribidrag grape)',
@@ -74,9 +83,11 @@ const varietalData = [
       'Beef',
       'Barbecue',
       'Italian, American, Chinese, Thai and Indian foods',
-      'Full-flavored cheeses like Cheddar and firm cheeses such as Manchego'
+      'Full-flavored cheeses like Cheddar and firm cheeses such as Manchego',
     ],
-    img: 'https://drive.google.com/uc?id=1sY4bsVZsgfeMA4H02YbjFddnAPSMLl1b'
+    funFact:
+      'In 1972, Sutter Home famously created their extremely popular White Zinfandel. While some wine lovers consider this an “entry level” wine, we have this pink pleaser to thank for today’s wonderful old-vine Zins. Its popularity ensured that Zinfandel vines were not grafted over when red Zin fell out of favor in the late 70s.',
+    img: zinPhoto,
   },
   {
     name: 'Pinot Noir',
@@ -86,7 +97,7 @@ const varietalData = [
       'Very red fruited (cherry, cranberry) and red-floral (rose)',
       'Often with appealing vegetal notes of beet',
       'Rhubarb',
-      'Mushroom'
+      'Mushroom',
     ],
     style: 'Lighter-bodied Red Wine',
     countryOfOrigin: 'France',
@@ -100,9 +111,11 @@ const varietalData = [
       'Cured meat',
       'Cream sauces',
       'Soft cheeses',
-      'Nutty medium-firm cheeses like Gruyère'
+      'Nutty medium-firm cheeses like Gruyère',
     ],
-    img: 'https://drive.google.com/uc?id=1sY4bsVZsgfeMA4H02YbjFddnAPSMLl1b'
+    funFact:
+      'Chardonnay is related to Pinot Noir. It’s a natural crossing of Pinot Noir and Gouais Blanc (the near-extinct variety mentioned above!). This is why Chardonnay and Pinot Noir always seem to grow together (such as in Oregon, Burgundy, and Chile). While I’m rambling on this topic, the same relationship is true between Sauvignon Blanc and Cabernet Sauvignon, which is why regions like Bordeaux and Napa both grow Cabernet and Sauvignon Blanc. Aha!',
+    img: pnPhoto,
   },
   //
   // White Varietals
@@ -116,7 +129,7 @@ const varietalData = [
       'Yellow pomaceous fruits (like yellow pear and apple)',
       'Tropical fruits like banana or pineapple',
       'Butterscotch',
-      'Vanilla or toasted caramel notes from oak'
+      'Vanilla or toasted caramel notes from oak',
     ],
     style: 'Medium to Full-Bodied White Wine',
     countryOfOrigin: 'France',
@@ -130,11 +143,11 @@ const varietalData = [
       'Pork',
       'Mushroom',
       'French cream sauces',
-      'Soft cheeses such as triple cream brie and medium-firm cheeses like Gruyère'
+      'Soft cheeses such as triple cream brie and medium-firm cheeses like Gruyère',
     ],
     funFact:
-      'There’s a reason why Cab tastes great with steak! Researchers studying the effects of certain foods on the tongue found that the tannins in Cabernet Sauvignon act as “scrapers” to fats and proteins that collect on your tongue from the food you eat. Steak has higher levels of proteins and fats and thus needs a wine with higher tannin.',
-    img: 'https://drive.google.com/uc?id=1sY4bsVZsgfeMA4H02YbjFddnAPSMLl1b'
+      'Chardonnay achieved its reputation for greatness in the Burgundy region of France over 1200 years ago. Around 800 A.D. the wife of the Emperor Charlemagne, disgusted by the red wine that stained her husband’s white beard, ordered that white grapes be planted in their Burgundy vineyard, which is now called Corton-Charlemagne.',
+    img: chardPhoto,
   },
   {
     name: 'Sauvignon Blanc',
@@ -143,7 +156,7 @@ const varietalData = [
     taste: [
       'Aggressively-citrus-driven (grapefruit pith)',
       'Exotic fruits (honeydew melon, passion fruit, kiwi)',
-      'Always an herbaceous quality (grass, mint, green pepper)'
+      'Always an herbaceous quality (grass, mint, green pepper)',
     ],
     style: 'Light to Medium-Bodied White Wine',
     countryOfOrigin: 'France',
@@ -155,11 +168,11 @@ const varietalData = [
       'Pork',
       'Veal',
       'Mexican, Vietnamese and French foods',
-      'Herb-crusted goat cheese and nutty cheeses such as Gruyère'
+      'Herb-crusted goat cheese and nutty cheeses such as Gruyère',
     ],
     funFact:
-      'Syrah and Shiraz are the same grape! Known as Syrah in France (its country of origin) as well as in the rest of Europe and most of the United States, it is referred to as Shiraz in Australia, New Zealand, South Africa, and Canada. The name “Shiraz” may have originated from ancient Persia.',
-    img: 'https://drive.google.com/uc?id=1sY4bsVZsgfeMA4H02YbjFddnAPSMLl1b'
+      'More New Zealand Sauvignon Blanc, led by the wines from the Marlborough region, is imported into Australia than any other wine style. More than one third of all wines produced in New Zealand is Marlborough Sauvignon Blanc.',
+    img: sbPhoto,
   },
   {
     name: 'Pinot Gris',
@@ -169,14 +182,16 @@ const varietalData = [
       'Delicate citrus (lime water, orange zest)',
       'Pomaceous fruits (apple skin, pear sauce)',
       'White floral notes',
-      'Cheese rind'
+      'Cheese rind',
     ],
     style: 'Light-Bodied White Wine',
     countryOfOrigin: 'France',
     description:
       'Pinot Gris is a dry light-bodied white grape that is planted heavily in Italy, but also in France and Germany. Wines are light to middle-weight and easy drinking, often with some bitter flavor on the palate (bitter almond, quinine).',
     foodPairing: ['Salad', 'Delicate poached fish', 'Light and mild cheeses'],
-    img: 'https://drive.google.com/uc?id=1sY4bsVZsgfeMA4H02YbjFddnAPSMLl1b'
+    funFact:
+      "It's all about location. Pinot Gris is from France, while Pinot Grigio is from Italy. Same wine variety, different names based on where it is produced. In the U.S., you'll see both names used interchangeably.",
+    img: pgPhoto,
   },
   {
     name: 'Riesling',
@@ -186,7 +201,7 @@ const varietalData = [
       'Citrus (kefir lime, lemon juice) and stone-fruit (white peach, nectarine) always feature prominently',
       'Floral and sweet herbal elements',
       'Rock candy',
-      'Honeysuckle'
+      'Honeysuckle',
     ],
     style:
       'Floral and fruit-driven aromatic white that comes in variable sweetness. Some producers choose not to ferment all the grape sugar and therefore make the wine in an “off-dry” style.',
@@ -200,10 +215,12 @@ const varietalData = [
       'Turkey (Thanksgiving Dinner)',
       'Cured meat',
       'Indian, Thai, Vietnamese, Moroccan and German foods',
-      'Washed-rind cheeses and fondue'
+      'Washed-rind cheeses and fondue',
     ],
-    img: 'https://drive.google.com/uc?id=1sY4bsVZsgfeMA4H02YbjFddnAPSMLl1b'
-  }
+    funFact:
+      'Seldom oaked, Riesling grapes can be used to make dry, semi-sweet, sweet and sparkling white wines. Riesling makes excellent dessert wines and is typically thought of in the US as a sweeter white wine. But that there are many “dry Rieslings” that are in fact very crisp and food-friendly, similar in body and style to a light, aromatic Sauvignon Blanc.',
+    img: riesPhoto,
+  },
 ];
 
 export default varietalData;

@@ -7,7 +7,7 @@ import Footer from './Footer';
 function VarietalDetails() {
   const { varietalName } = useParams();
   const thisVarietal = varietalData.find(
-    varietal => varietal.name === varietalName
+    (varietal) => varietal.name === varietalName
   );
 
   const arrowIcon = (
@@ -25,7 +25,7 @@ function VarietalDetails() {
   return (
     <div className="w-8/12 my-8 mx-auto">
       <img
-        className="max-w-5xl mx-auto mb-8 shadow-lg"
+        className="max-w-5xl mx-auto mb-8 shadow-lg details-img"
         src={thisVarietal.img}
         alt={thisVarietal.name}
       />
